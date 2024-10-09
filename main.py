@@ -32,3 +32,15 @@ intro_art = r'''
 print("Welcome to Lost in Space.....")
 # could I slowly scroll an empty screen until the ship appears?
 print(intro_art)
+print("You feel foggy as you slowly wake up to the sound of alarms and the smell of smoke.")
+print(f"1. Take off your helmet\n2. Check your vitals\n")
+choice_one = int(input("> "))
+if choice_one == 1:
+    print("You immediately regret this decision as the acrid smoke causes you to choke")
+elif choice_one == 2:
+    print("Your vitals are stable for now, but some are concerning.")
+else:
+    print("You made an unwise choice and everything fades to black.")
+
+
+
