@@ -19,3 +19,7 @@ full explore in class or be tested on
 # be a word, not a number
 # Format: my_dictionary = {key1:value1,key2:value2,key3:value3} etc.
 # To get an item, my_dictionary[key]
+
+# Sleep
+# import sleep is needed at top; delays next line of code for specified time
+# Format: time.sleep(time_in_seconds)
