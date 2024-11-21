@@ -4,6 +4,7 @@ Date: 10/3/24
 Description: This is a text adventure game called Lost in Space about someone who crash lands on a planet
 and tries to find their way around the planet.
 '''
+import time # for slow scrolling
 
 print("Possible Themes".center(40,'-'))
 print("Castle")
@@ -31,6 +32,9 @@ intro_art = r'''
 
 print("Welcome to Lost in Space.....")
 # could I slowly scroll an empty screen until the ship appears?
+for i in range(10):
+    print(".")
+    time.sleep(0.5)
 print(intro_art)
 print("You feel foggy as you slowly wake up to the sound of alarms and the smell of smoke.")
 print(f"1. Take off your helmet\n2. Check your vitals\n")
@@ -41,6 +45,7 @@ elif choice_one == 2:
     print("Your vitals are stable for now, but some are concerning.")
 else:
     print("You made an unwise choice and everything fades to black.")
+
 
 
 
