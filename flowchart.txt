@@ -1,0 +1,34 @@
+Start: Crash Site
+    ├── Explore Wrecked Ship → Find Survival Kit → Return to Crash Site
+    ├── Explore Signal Tower → (Repair Device: Success → Reveal Coordinates → Deserted Settlement, Dark Valley)
+    │                                    └── (Repair Device: Fail → No new locations)
+    ├── Examine Damaged Pod → (Locked: Requires Key Card) → Return to Crash Site
+    └── Enter Forest
+        ├── Explore Glowing Lake → (Random Effects: Healing, Vision, Eerie Messages) → Return to Forest
+        ├── Approach Alien Shrine → (Discover Clues or Trigger Trap) → Return to Forest
+        └── Enter Cave
+            ├── Pick Up Alien Artifact → Add to Inventory → Continue in Cave
+            ├── Explore Underground Lab → Find Strange Serum → Return to Cave
+            ├── Discover Ancient Ruins → Find Key Card → Return to Cave
+            └── Go Deeper → Fall into Pit → GAME OVER
+
+Signal Tower Coordinates → Deserted Settlement
+    ├── Investigate Abandoned Buildings → Find Rations, Alien Map → Return to Crash Site
+    └── Encounter Unknown Entity → Cryptic Notes → Return to Crash Site
+
+Signal Tower Coordinates → Dark Valley
+    ├── Encounter Hidden Paths → Leads Back to Known Locations
+    └── Discover Secret Portal → Alien Observatory
+        ├── View Planet Clues → Gain Insight on Escape
+        └── Find Final Hints → Return to Crash Site or Continue Exploring
+
+Random Events (Possible at Any Location)
+    ├── Encounter Alien Creature → Suspenseful Interaction → No Combat
+    ├── Experience Strange Storm → Shelter or Explore → Adds Atmospheric Tension
+    └── Hear Ghostly Whisper → Mysterious Message → Adds Narrative Depth
+
+Options (Accessible at Any Point)
+    ├── Check Inventory
+    ├── Save Game
+    ├── Load Game
+    └── Quit Game
